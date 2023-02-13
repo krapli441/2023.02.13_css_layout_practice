@@ -1,0 +1,7 @@
+.item {
+  align-items: center;
+  width: 390px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: white;
+}

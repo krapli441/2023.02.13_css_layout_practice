@@ -1,0 +1,44 @@
+/* desktop_screen */
+
+@media screen and (min-width:1262px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #main_container > div {
+    flex-direction: row;
+  }
+
+  #main_container{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #middle_mainscreen {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  #top_nav, #bottom_nav {
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .item {
+    flex-direction: row;
+    align-items: center;
+    width: 390px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+  }
+
+  .main_box {
+    width: 633px;
+    height: 450px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+  }
+
+}
